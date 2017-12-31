@@ -56,7 +56,7 @@
   margin:7px;
   margin-top:10.2px;
   opacity:.8;
-  transition: opacity .5s ease-in-out;
+  transition: all .5s ease-in-out;
   width:auto;
 }
 
@@ -133,7 +133,7 @@ text-align:center;
     display:inline-block;
     margin:20px;
     margin-top:45px;
-    transition: color .2s ease-in-out;
+    transition: all .2s ease-in-out;
     letter-spacing: 1.2px;
     cursor:pointer;
 }
@@ -162,12 +162,13 @@ text-align:center;
     padding-bottom:18px;
     text-transform: uppercase;
     font-weight: bold;
-    transition: color .2s ease-in-out;
+    transition: all .3s ease-in-out;
     cursor:pointer;
 }
 
 .navigation_info:last-of-type span:hover {
-  color: #0b9ebf;
+  color: white;
+  background-color:#0b9ebf;
 }
 
 
@@ -317,13 +318,55 @@ text-align:center;
   background-color:coral;
   height:350px;
   width:100%;
+  font-size: 0;
 
 }
 
-.skill_div {
-  
+.skillsBox .skill_div {
+  width:24.89%;
+  display:inline-block;
+  height:100%;
+  border-left:.2px solid  #dddddd;
+  border-right:.2px solid  #dddddd;
+  background-color:white;
+  transition: all .3s ease-in-out;
 }
 
+.skillsBox .skill_div:hover {
+  background-color:#0b9ebf;
+  color:white;
+}
+
+.skillsBox .skill_div:first-of-type {
+  border-left:none;
+}
+.skillsBox .skill_div:last-of-type {
+  border-right:none;
+}
+
+.skillsBox .skill_div .skill_img{
+    width:100%;
+    height:40%;
+background-color:coral;
+}
+
+.skillsBox .skill_div .skill_title{
+    width:100%;
+    height:18%;
+  background-color:teal;
+  color:#0b9ebf;
+
+}
+
+.skillsBox .skill_div .skill_article{
+  width:100%;
+
+  height:42%;
+  background-color:violet;
+
+    color:#686867;
+
+}
 
 
 
