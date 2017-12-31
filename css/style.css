@@ -184,8 +184,7 @@ text-align:center;
 
 
 .photoreelBox {
-  background-color:green;
-  height:500px;
+  max-height:80vw;
   width:100%;
 
 }
@@ -249,10 +248,70 @@ text-align:center;
 
 
 .contentBox {
-  background-color:purple;
-  height:500px;
+  height:400px;
   width:100%;
+  position:relative;
 }
+
+.contentBox h1 {
+
+      font-weight:normal;
+      font-size:2.1em;
+      line-height:1.4em;
+}
+
+.contentBox p {
+  line-height:1.5em;
+    color:#686867;
+}
+
+.contentBox .content_div:first-of-type {
+  height:100px;
+  width:1200px;
+  margin:auto;
+  margin-top:60px;
+
+}
+
+.contentBox .content_div:last-of-type {
+  text-align:left;
+  height:170px;
+  width:1200px;
+  margin:auto;
+  margin-top:50px;
+}
+
+.contentBox .content_div .content_article {
+
+  float:left;
+  width:700px;
+  height:auto;
+
+
+}
+
+.contentBox .content_div .content_article .content_underline {
+
+  height:3px;
+  width:200px;
+  background-color:#0b9ebf;
+  border-radius: 10px;
+  margin-top:20px;
+  box-shadow: 2px 2px 2px -.5px grey;
+}
+
+.contentBox img {
+  position:absolute;
+  right:1px;
+  top:90px;
+  width:400px;
+  height:auto;
+}
+
+
+
+
+
 
 .skillsBox {
   background-color:coral;
@@ -260,6 +319,15 @@ text-align:center;
   width:100%;
 
 }
+
+.skill_div {
+  
+}
+
+
+
+
+
 
 .testimonialsBox {
     background-color:teal;
