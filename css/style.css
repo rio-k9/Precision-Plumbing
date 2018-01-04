@@ -337,9 +337,28 @@ h3 {
   margin-right:14px;
   border-radius:5px;
   display             : inline-block;
-  height              : 265px;
-  width               : 360px;
+  height              : 275px;
+  width               : 369px;
+  position:relative;
+}
+
+.testimonialsBox .testimonials_div:last-of-type .testimonials_chat img {
+  height: 40px;
+  top:37px;
+  width:auto;
+  position:absolute;
+  left:24px;
+}
+
+.testimonialsBox .testimonials_div:last-of-type .testimonials_chat .testimonials_article {
+  height:80%;
+  width:70%;
   text-align:left;
+  position:absolute;
+  right:30px;
+  top:36px;
+  line-height:1.8em;
+  font-size:.97em;
 }
 
 .testimonialsBox .testimonials_div:last-of-type .testimonials_chat .testimonials_triangle {
@@ -348,7 +367,8 @@ h3 {
   border-top:20px solid transparent;
   border-bottom: 20px solid transparent;
   border-left:40px solid #0b9ebf;
-  margin-top:53px;
+  position:absolute;
+  bottom:-18px;
   margin-left:25px;
   border-radius:2px;
 }
