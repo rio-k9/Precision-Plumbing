@@ -345,7 +345,7 @@ h3 {
 
 .testimonialsBox {
   background-color : #f4f4f4;
-  height           : 800px;
+  height           : 690px;
   overflow         : hidden;
   width            : 100%;
 }
@@ -408,13 +408,6 @@ h3 {
   border-radius:2px;
 }
 
-.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_person {
-  width:30%;
-  height:5%;
-  background-color:violet;
-  display:inline-block;
-}
-
 .testimonialsBox .testimonials_div:last-of-type {
   height:100px;
   width:1200px;
@@ -446,13 +439,54 @@ margin-left:158px;
 
 
 .aboutBox {
-  background-color : pink;
-  height           : 550px;
+  background-color : #0b9ebf;
+  height           : 900px;
   width            : 100%;
+
+  overflow:auto;
 }
 
+.aboutBox .about_info {
+
+
+  height:300px;
+  width:400px;
+  background-color:blueviolet;
+
+  margin-left:100px;
+
+}
+
+.aboutBox .about_info:first-of-type {
+
+  margin-top:140px;
+}
+
+.aboutBox .about_info span {
+  text-align:center;
+  border         : solid 3px white;
+  background-color:#0b9ebf;
+  cursor         : pointer;
+  display        : block;
+  float          : right;
+  font-weight    : bold;
+  margin-top     : 16px;
+  padding-bottom : 18px;
+  padding-top    : 18px;
+  text-transform : uppercase;
+  transition     : all .3s ease-in-out;
+  width          : 200px;
+}
+
+.aboutBox .about_info span:hover {
+  background-color : white;
+  color            : #0b9ebf;
+}
+
+
+
 .footer {
-  background-color : grey;
+  background-color : #f4f4f4;
   height           : 110px;
   width            : 100%;
 }
