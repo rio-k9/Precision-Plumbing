@@ -29,6 +29,10 @@ h3 {
   width            : 200px;
 }
 
+
+
+
+
 .header {
   background-color : #efefef;
   height           : 40px;
@@ -101,6 +105,12 @@ h3 {
   vertical-align : top;
 }
 
+
+
+
+
+
+
 .navigation_info:first-of-type {
   text-align : center;
   width      : 360px;
@@ -165,6 +175,12 @@ h3 {
   color            : white;
 }
 
+
+
+
+
+
+
 .photoreelBox {
   max-height : 80vw;
   width      : 100%;
@@ -194,6 +210,12 @@ h3 {
   height  : auto;
   width   : 100%;
 }
+
+
+
+
+
+
 
 .contentBox {
   height   : 500px;
@@ -234,6 +256,11 @@ h3 {
   top      : 130px;
   width    : 400px;
 }
+
+
+
+
+
 
 .skillsBox {
   font-size  : 0;
@@ -308,6 +335,14 @@ h3 {
   width      : 70%;
 }
 
+
+
+
+
+
+
+
+
 .testimonialsBox {
   background-color : #f4f4f4;
   height           : 800px;
@@ -322,15 +357,15 @@ h3 {
   width      : 1200px;
 }
 
-.testimonialsBox .testimonials_div:last-of-type {
-  height     : 500px;
+.testimonialsBox .testimonials_div:nth-of-type(2) {
+  height     : 295px;
   margin     : auto;
   margin-top : 50px;
   text-align : center;
   width      : 1200px;
 }
 
-.testimonialsBox .testimonials_div:last-of-type .testimonials_chat {
+.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_chat {
   background-color:#0b9ebf;
   color:white;
   margin-left:14px;
@@ -342,7 +377,7 @@ h3 {
   position:relative;
 }
 
-.testimonialsBox .testimonials_div:last-of-type .testimonials_chat img {
+.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_chat img {
   height: 40px;
   top:37px;
   width:auto;
@@ -350,7 +385,7 @@ h3 {
   left:24px;
 }
 
-.testimonialsBox .testimonials_div:last-of-type .testimonials_chat .testimonials_article {
+.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_chat .testimonials_article {
   height:80%;
   width:70%;
   text-align:left;
@@ -361,7 +396,7 @@ h3 {
   font-size:.97em;
 }
 
-.testimonialsBox .testimonials_div:last-of-type .testimonials_chat .testimonials_triangle {
+.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_chat .testimonials_triangle {
   width: 0;
   height: 0;
   border-top:20px solid transparent;
@@ -372,6 +407,43 @@ h3 {
   margin-left:25px;
   border-radius:2px;
 }
+
+.testimonialsBox .testimonials_div:nth-of-type(2) .testimonials_person {
+  width:30%;
+  height:5%;
+  background-color:violet;
+  display:inline-block;
+}
+
+.testimonialsBox .testimonials_div:last-of-type {
+  height:100px;
+  width:1200px;
+  margin:auto;
+}
+
+.testimonialsBox .testimonials_div:last-of-type .testimonials_person {
+  width:20%;
+  height:50%;
+  display:inline-block;
+  text-align:left;
+  margin-top:15px;
+    margin-left:15px;
+}
+
+.testimonialsBox .testimonials_div:last-of-type .testimonials_person p {
+ color:#686867;
+ font-size:.92em;
+}
+
+.testimonialsBox .testimonials_div:last-of-type .testimonials_person:not(:first-of-type){
+
+margin-left:158px;
+}
+
+
+
+
+
 
 .aboutBox {
   background-color : pink;
